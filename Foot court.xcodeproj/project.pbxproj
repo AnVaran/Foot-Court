@@ -421,6 +421,7 @@
 			baseConfigurationReference = 735B65B662E652EF0B552C8D /* Pods-Foot court.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Foot court/Foot court.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59F4BVAUWF;
 				INFOPLIST_FILE = "Foot court/Info.plist";
@@ -428,7 +429,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Foot-court";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Foot-courtCloude";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,6 +441,7 @@
 			baseConfigurationReference = 92268608007AE24AD2417B69 /* Pods-Foot court.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Foot court/Foot court.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59F4BVAUWF;
 				INFOPLIST_FILE = "Foot court/Info.plist";
@@ -447,7 +449,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Foot-court";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Foot-courtCloude";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

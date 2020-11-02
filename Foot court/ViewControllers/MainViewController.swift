@@ -25,11 +25,11 @@ class MainViewController: UITableViewController {
     
     @IBOutlet weak var segmentedcontrol: UISegmentedControl!
     @IBOutlet weak var reversedSortingButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         places = realm.objects(Place.self)
-        
         // SetUp the serach Controller
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
